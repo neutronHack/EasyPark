@@ -140,6 +140,7 @@
     <Content Include="Frontend\js\bootstrap.js" />
     <Content Include="Frontend\js\bootstrap.min.js" />
     <Content Include="Frontend\js\search.js" />
+    <Content Include="Frontend\html\Semaforo.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -228,6 +229,7 @@
     <Compile Include="Backend\Entidad\eUsuario.cs" />
     <Compile Include="Backend\Negocio\nRol.cs" />
     <Compile Include="Backend\Negocio\nUsuario.cs" />
+    <Compile Include="Backend\Semaforo.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -276,6 +278,13 @@
     </Compile>
     <Compile Include="Frontend\html\Mensaje.ascx.designer.cs">
       <DependentUpon>Mensaje.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Frontend\html\Semaforo.aspx.cs">
+      <DependentUpon>Semaforo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Frontend\html\Semaforo.aspx.designer.cs">
+      <DependentUpon>Semaforo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
